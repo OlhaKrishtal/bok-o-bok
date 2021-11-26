@@ -1,0 +1,166 @@
+
+@media(max-width: 1200px){
+    .info{
+        min-height: auto;
+        background: none;
+        padding: 40px 0;
+        text-align: center;
+        background-color: $light-gray
+    }
+    .info__title{
+        margin-bottom: 0;
+    }
+    .cards__item{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .price__item{
+        max-width: 100%;
+    }
+    .questions__image-item {
+        left: 0px;
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 992px){
+    .top{
+        background: none;
+        padding: 40px 0;
+    }
+    .benefits__text{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .benefits{
+        padding: 50px 0;
+    }
+    .benefits__title{
+        margin-bottom: 35px;
+    }
+    .section-page{
+        padding: 50px 0;
+    }
+    .steps__list{
+        margin-bottom: 40px;
+    }
+    .steps__title{
+        margin-bottom: 30px;
+    }
+    .steps__item-title {
+        margin-bottom: 5px;
+    }
+    .title__descr{
+        margin-bottom: 40px;
+    }
+    .promotion__info {
+        max-width: 100%;
+        order: 1;
+    }
+    .promotion__image{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .promotion__title{
+        margin-bottom: 15px;
+    }
+    .promotion__row{
+        margin-bottom: 40px;
+    }
+    .questions__title{
+        margin-bottom: 40px;
+    }
+    .socials__list{
+        justify-content: flex-start;
+    }
+    .footer-menu__list-item:last-child{
+        margin-bottom: 15px;
+    }
+    .footer__logo{
+        margin-bottom: 20px;
+    }
+    .socials__list{
+        margin-top: 10px;
+    }
+    .footer__top{
+        margin-bottom: 40px;
+    }
+    .footer {
+        padding: 50px 0 40px;
+    }
+}
+
+@media(max-width: 768px){
+    body{
+        font-size: 16px;
+    }
+    .top__title{
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .block__title{
+        font-size: 20px;
+    }
+    .steps__item-title::before{
+        transform: translateX(0px) translateY(0px);
+    }
+    .steps__list-item{
+        margin-bottom: 20px;
+    }
+    .steps__item-text::before{
+        display: none;
+    }
+    .price__box{
+        padding: 0;
+    }
+    .price__descr{
+        padding: 0;
+    }
+}
+
+@media(max-width: 576px){
+    .top__descr {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 35px;
+    }
+    .accent__btn{
+        padding: 15px;
+    }
+    .cards__item{
+        padding: 25px;
+    }
+    .cards__item-img{
+        margin-bottom: 10px;
+    }
+    .promotion__image-item{
+        max-width: 300px;
+    }
+    .price__item{
+        padding: 30px;
+    }
+    .price__item-title{
+        margin-bottom: 20px;
+    }
+    .price__item-cost{
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
+    .price__item-cost .accent {
+        font-size: 50px;
+    }
+    .questions__btn{
+        margin-top: 0;
+    }
+    .questions__form-input{
+        margin-bottom: 30px;
+    }
+    .questions__image-item{
+        max-width: 300px;
+    }
+}

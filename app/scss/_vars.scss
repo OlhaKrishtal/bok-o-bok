@@ -1,0 +1,27 @@
+
+// *****colors
+
+$primary-color:   #000099;
+$secondary-color: #333399;
+$accent-color:    #00CC99;  
+
+$white:           #fff;
+$light-gray:      #F5F9FF;
+
+$disabled-color:  rgba(51, 51, 153, 0.2);
+
+
+// *****fonts
+
+%geometric-regular{
+    font-family: "URWGeometric-Regular", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+%geometric-bold{
+    font-family: "URWGeometric-Bold", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+%geometric-black{
+    font-family: "URWGeometric-Black", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
